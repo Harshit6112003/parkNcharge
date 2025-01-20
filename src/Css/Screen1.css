@@ -1,0 +1,130 @@
+
+/* .App{
+    display:flex;
+    flex-direction: column;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: black;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.SearchBarContaine{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    border-style: solid;
+    border-color:brown;
+    border-width: 3px;
+    height:500px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.Head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aquamarine;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    
+}
+.charger-details{
+    border-style: solid;
+    margin-top: 100px;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+.charger-details input{
+    border-style: solid;
+    border-width: 2px;
+} */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+  }
+  
+  .Head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .Head h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  .SearchBarContaine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .charger-details {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .charger-details form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .charger-details label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .charger-details input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    transition: border-color 0.3s;
+  }
+  
+  .charger-details input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .charger-details input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .charger-details input[type="submit"]:hover {
+    background-color: #0056b3;
+  }

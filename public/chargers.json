@@ -1,0 +1,38 @@
+[
+    {
+    "fname":"harshit",
+    "address":"f94",
+    "area":"Karol Bagh",
+    "pincode":"110005"
+},
+{
+    "fname":"vinayak",
+    "address":"f95",
+    "area":"Chandni Chowk",
+    "pincode":"110006"
+},
+{
+    "fname":"vaibhav",
+    "address":"f96",
+    "area":" Inderpuri",
+    "pincode":"110012"
+},
+{
+    "fname":"parth",
+    "address":"f97",
+    "area":"Patel Nagar",
+    "pincode":"110008"
+},
+{
+    "fname":"arjun",
+    "address":"f94",
+    "area":"Rajouri Garden",
+    "pincode":"110027"
+},
+{
+    "fname":"mukund",
+    "address":"f94",
+    "area":"Safdarjung Enclave",
+    "pincode":"110029"
+}
+]

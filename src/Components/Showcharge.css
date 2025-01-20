@@ -1,0 +1,6 @@
+.slist{
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    flex-direction: column;
+}

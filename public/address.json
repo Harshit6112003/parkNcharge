@@ -1,0 +1,97 @@
+[
+    {
+        "office_name": "Connaught Place Post Office",
+        "pincode": "110001",
+        "area": "Connaught Place"
+    },
+    {
+        "office_name": "Karol Bagh Post Office",
+        "pincode": "110005",
+        "area": "Karol Bagh"
+    },
+    {
+        "office_name": "Chandni Chowk Post Office",  
+        "pincode": "110006",
+        "area": "Chandni Chowk"
+    },
+    {
+        "office_name": "Inderpuri Post Office",
+        "pincode": "110012",
+        "area": "Inderpuri"
+    },
+    {
+        "office_name": "Patel Nagar Post Office",
+        "pincode": "110008",
+        "area": "Patel Nagar"
+    },
+    {
+        "office_name": "Rajouri Garden Post Office",
+        "pincode": "110027",
+        "area": "Rajouri Garden"
+    },
+    {
+        "office_name": "Safdarjung Enclave Post Office",
+        "pincode": "110029",
+        "area": "Safdarjung Enclave"
+    },
+    {
+        "office_name": "Lajpat Nagar Post Office",
+        "pincode": "110024",
+        "area": "Lajpat Nagar"
+    },
+    {
+        "office_name": "Rohini Sector 3 Post Office",
+        "pincode": "110085",
+        "area": "Rohini Sector 3"
+    },
+    {
+        "office_name": "Vasant Vihar Post Office",
+        "pincode": "110057",
+        "area": "Vasant Vihar"
+    },
+    {
+        "office_name": "Dwarka Sector 6 Post Office",
+        "pincode": "110075",
+        "area": "Dwarka Sector 6"
+    },
+    {
+        "office_name": "Sarojini Nagar Post Office",
+        "pincode": "110023",
+        "area": "Sarojini Nagar"
+    },
+    {
+        "office_name": "Mayur Vihar Phase 1 Post Office",
+        "pincode": "110091",
+        "area": "Mayur Vihar Phase 1"
+    },
+    {
+        "office_name": "Pitampura Post Office",
+        "pincode": "110034",
+        "area": "Pitampura"
+    },
+    {
+        "office_name": "Nehru Place Post Office",
+        "pincode": "110019",
+        "area": "Nehru Place"
+    },
+    {
+        "office_name": "Jangpura Post Office",
+        "pincode": "110014",
+        "area": "Jangpura"
+    },
+    {
+        "office_name": "New Friends Colony Post Office",
+        "pincode": "110025",
+        "area": "New Friends Colony"
+    },
+    {
+        "office_name": "Paharganj Post Office",
+        "pincode": "110055",
+        "area": "Paharganj"
+    },
+    {
+        "office_name": "Okhla Industrial Area Phase 1 Post Office",
+        "pincode": "110020",
+        "area": "Okhla Industrial Area"
+    }
+]

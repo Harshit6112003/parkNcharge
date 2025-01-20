@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 17.6px;
+    letter-spacing: 0.64px;
+}
+
+body{
+    margin: 0;
+}
+.hamburger{
+    display: none;
+}
+.search{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 5px 5px rgb(213, 213, 213);
+    
+}
+
+.logo{
+    cursor: pointer;
+    margin-left: 20px;
+    height: 60px;
+    width: 50px;
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-list ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 40px;
+}
+
+.nav-list ul li{
+    cursor: pointer;
+    color: grey;
+}
+
+.nav-list ul li:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.justify-text{
+    text-align: center;
+}
+
+
+.info{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+.locator{
+    background-color: #f0f0f06e;
+    width: 100%;
+    padding-top: 60px;
+
+}
+
+.dealer{
+    width: 100%;
+    background-color: #5df95b6e;
+    padding-top: 60px;
+}
+
+
+.padding-all{
+    padding: 28px;
+}
+
+.length-width{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.length-width-row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-color-green{
+    background-color: #5df95b6e;
+}
+.footer-comp{
+    background: #383737;
+    padding: 60px 106px 40px 106px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 17.6px;
+    letter-spacing: 0.64px;
+    color: white;
+}
+
+.footer-comp .container .footer-main ul li.footer-nav-link a {
+    color: #ffffff !important;
+    max-width: 189px;
+}
+
+.logo-fotter{
+    width: 115px;
+    height: 50px;
+    filter: invert(1);
+}
+
+.container-info{
+    margin-bottom: 100px;
+}
+
+.flying-car-2{
+    height: 45px;
+    width: 45px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.flying-car{
+    height: 45px;
+    width: 45px;
+}
