@@ -23,7 +23,7 @@ function Header() {
           <li><Link to="/Screen1">contirbute</Link></li>
           <li><Link to="/Screen2">locater</Link></li>
         </ul>
-      </nav>*/}
+      </nav> */}
     </header>
   );
 }
