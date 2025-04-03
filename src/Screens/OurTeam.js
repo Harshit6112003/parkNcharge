@@ -1,5 +1,5 @@
 import React from 'react'
-import '/home/ryuk/reactapp/sparkncharge/src/Css/Ourteam.css' ;
+import '../Css/Ourteam.css' ;
 import img1 from '../Components/Images/pexels-harold-vasquez-853421-2653362.jpg';
 import img2 from '../Components/Images/pexels-luis-gomes-166706-546819.jpg';
 import img3 from '../Components/Images/pexels-markusspiske-2764993 (1).jpg';

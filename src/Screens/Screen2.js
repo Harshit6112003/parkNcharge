@@ -4,7 +4,7 @@ import SearchBar2 from '../Components/SearchBar2/SearchBar2';
 import SearchResList2 from '../Components/SearchBar2/SearchResList2';
 import ShowChargers from '../Components/Showchargers';
 
-import '/home/ryuk/reactapp/sparkncharge/src/Css/Screen2.css';
+import '../Css/Screen2.css';
 
 function App() {
 

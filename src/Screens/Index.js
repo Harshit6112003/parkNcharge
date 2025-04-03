@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/ryuk/reactapp/sparkncharge/src/Css/Style.css';
+import '../Css/Style.css';
 import img1 from '../Components/Images/ElectrifyAmerica-VancouverWA.jpg';
 import img2 from '../Components/Images/Biz-ev-charger-1242853588.jpg';
 import img3 from '../Components/Images/logo-org.png';

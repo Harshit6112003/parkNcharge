@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react';
 import SearchBar from '../Components/SearchBar1/SearchBar';
-import '/home/ryuk/reactapp/sparkncharge/src/Css/Screen1.css'
+import '../Css/Screen1.css'
 import SearchResList from '../Components/SearchBar1/SearchResList';
 
 

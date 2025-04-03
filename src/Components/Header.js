@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '/home/ryuk/reactapp/sparkncharge/src/Css/Style.css';
+import '../Css/Style.css';
 import logo1 from '../Components/Images/logo-org.png';
 function Header() {
   return (

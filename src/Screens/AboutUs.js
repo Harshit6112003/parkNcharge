@@ -1,5 +1,5 @@
 import React from 'react'
-import '/home/ryuk/reactapp/sparkncharge/src/Css/OurVision.css'
+import '../Css/OurVision.css'
 import img1 from '../Components/Images/flying-car-color-icon-illustration-vector-removebg-preview.png';
 import img2 from '../Components/Images/ElectrifyAmerica-VancouverWA.jpg';
 import img3 from '../Components/Images/1027923.jpg';

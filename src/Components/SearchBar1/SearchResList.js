@@ -1,5 +1,5 @@
 import React from 'react';
-import'/home/ryuk/reactapp/sparkncharge/src/Components/SearchBar1/SearchResList.css'; 
+import'../SearchBar1/SearchResList.css'; 
 
 
 const SearchResList = ({results,selectedvalue}) => {

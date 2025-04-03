@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import '/home/ryuk/reactapp/sparkncharge/src/Components/SearchBar2/SearchBar2.css';
+import '../SearchBar2/SearchBar2.css';
 
 
 

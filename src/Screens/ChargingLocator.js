@@ -1,5 +1,5 @@
 import React from 'react'
-import '/home/ryuk/reactapp/sparkncharge/src/Css/ChargingLocator.css';
+import '../Css/ChargingLocator.css';
 import { useNavigate } from 'react-router-dom';
 import img1 from '../Components/Images/flying-car-color-icon-illustration-vector-removebg-preview.png';
 const ChargingLocator = () => {
