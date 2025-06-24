@@ -1,5 +1,5 @@
-import React from 'react'
-import '../Css/OurVision.css'
+import React from 'react';
+import '../Css/OurVision.css';
 import img1 from '../Components/Images/flying-car-color-icon-illustration-vector-removebg-preview.png';
 import img2 from '../Components/Images/ElectrifyAmerica-VancouverWA.jpg';
 import img3 from '../Components/Images/1027923.jpg';
@@ -9,103 +9,89 @@ import img6 from '../Components/Images/evchargingstation-courtesy-the-n.jpg';
 import img7 from '../Components/Images/How-Many-EV-Chargers-Do-We-Need.jpg';
 import img8 from '../Components/Images/charging-station.jpg';
 
-
-
 const AboutUs = () => {
-    return (
-        <div>
-            <section class="namepad">
-                <marquee class="flex-marquee"><img class="flying-car" src={img1} alt="" /><span class="name-car">ParkNCharge</span></marquee>
-            </section>
-
-
-
-
-
-            <div class="px-4 py-5 mb-5 text-center">
-                <h1 class="display-5 fw-bold text-body-emphasis name">Park<span class="green-text">N</span>Charge</h1>
-                <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4">Stop, Charge, and Go—Easier Than You Know!</p>
-                </div>
-            </div>
-
-
-
-
-            <section class="carpad py-5">
-                <div id="myCarousel" class="carousel slide mb-6 py-5" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6" class=""></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7" class=""></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img2} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img3} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img4} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img5} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img6} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img7} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="bd-placeholder-img" width="100%" height="800px" src={img8} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" /><rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </div>
-
-
-                        <div class="carousel-caption transparent-class">
-                            <h1 class="transparent-class">We strive to bring revolution in Charging Ev's</h1>
-                            <p class="transparent-class">Some representative placeholder content for the second slide of the carousel.</p>
-                            <p class="transparent-class"><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                        </div>
-
-
-
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section>
-
-
-
-            <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-            <script async="" src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-            
-
-
-            
+  return (
+    <div>
+      <section className="namepad">
+        <div className="flex-marquee">
+          <img className="flying-car" src={img1} alt="Flying car icon" />
+          <span className="name-car">ParkNCharge</span>
         </div>
-    )
-}
+      </section>
 
-export default AboutUs
+      <div className="px-4 py-5 mb-5 text-center">
+        <h1 className="display-5 fw-bold text-body-emphasis name">
+          Park<span className="green-text">N</span>Charge
+        </h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4">Stop, Charge, and Go—Easier Than You Know!</p>
+        </div>
+      </div>
+
+      <section className="carpad py-5">
+        <div id="myCarousel" className="carousel slide mb-6 py-5" data-bs-ride="carousel">
+          <div className="carousel-indicators">
+            {[...Array(7)].map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to={i}
+                className={i === 0 ? 'active' : ''}
+                aria-label={`Slide ${i + 1}`}
+                aria-current={i === 0 ? 'true' : undefined}
+              ></button>
+            ))}
+          </div>
+
+          <div className="carousel-inner">
+            {[img2, img3, img4, img5, img6, img7, img8].map((img, idx) => (
+              <div
+                className={`carousel-item ${idx === 0 ? 'active' : ''}`}
+                key={idx}
+              >
+                <img
+                  className=" d-block w-100 carousel-img "
+                  src={img}
+                  alt={`Slide ${idx + 1}`}
+                />
+                {idx === 0 && (
+                  <div className="carousel-caption">
+                    <h1>We strive to bring revolution in Charging EVs</h1>
+                    <p>Join us in building India’s largest smart EV charging network.</p>
+                    <p>
+                      <a className="btn btn-lg btn-primary" href="#">
+                        Learn more
+                      </a>
+                    </p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default AboutUs;

@@ -34,7 +34,7 @@ a{
 
 .nav-list{
     display: flex;
-    margin-right: 650px;
+    margin-right: 500px;
   
 
 }
@@ -125,7 +125,6 @@ a:hover{
     font-weight: normal;
     line-height: 17.6px;
     letter-spacing: 0.64px;
-    /* color: white; */
 }
 .bg-color{
     background: #383737 !important;
@@ -133,25 +132,30 @@ a:hover{
 .footer-comp .container .footer-main ul li.footer-nav-link a {
     color: #ffffff !important;
     max-width: 189px;
+    
 }
 
 .info{
-    padding: 100px ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+   object-fit: fill;
 }
 
 .info-locations{
     background-color: #ffffff;
     width: 100%;
-    padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 600px;
+    position: relative;
+    bottom: 15px;
 }
 
 .map{
     width: 100%;
-
+    position: relative;
+    bottom: 15px;
 }
 
 .hamburger{
@@ -163,7 +167,6 @@ a:hover{
 
 .logo-fotter{
     width: 115px;
-    height: 50px;
     filter: invert(1);
 }
 
